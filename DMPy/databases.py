@@ -23,6 +23,7 @@ import math
 import os.path
 import itertools
 
+from zeep import Client
 from SOAPpy import SOAPProxy
 import requests
 
@@ -198,7 +199,7 @@ class Brenda(object):
     """
 
     def __init__(self, user, password,
-                 shelve_cache=os.path.join(CACHE_DIR, "brenda.shelve"),
+                 shelve_cache=False,
                  delay=5, wsdl="http://www.brenda-enzymes.org/soap/brenda.wsdl"):
         """Initialize the soap server and set up the user.
 
@@ -211,14 +212,15 @@ class Brenda(object):
         wsdl -- wsdl address of Brenda database. [To explore functions exposed check
                                                   the WSDL object under self.client]
         """
+
+        wsdl = "https://www.brenda-enzymes.org/soap/brenda_zeep.wsdl"
+
         self.wsdladdress = wsdl
-        # TEMPORARY FIX
-        # Since the WSDL points to the wrong address, manually set the endpoint.
-        # self.client = WSDL.Proxy(self.wsdladdress)
-        self.client = SOAPProxy("https://www.brenda-enzymes.org/soap/brenda_server.php")
+
+        self.client = Client(wsdl)
 
         self.user = user
-        self.password = hashlib.sha256(password).hexdigest()
+        self.password = hashlib.sha256(password.encode('utf-8')).hexdigest()
         self.shelve_cache = shelve_cache
 
         logging.info("BRENDA: Set up Brenda database for user: "
@@ -237,8 +239,8 @@ class Brenda(object):
         Arguments:
         parameters -- list of (key, value) parameters
         """
-        parameters = '#'.join('*'.join(item) for item in parameters)
-        return ','.join([self.user, self.password, parameters])
+        parameters = ('*'.join(item) for item in parameters)
+        return (self.user, self.password, *parameters)
 
     def parse_output(self, output):
         """Parse the output from a Brenda soap API request call.
@@ -248,6 +250,7 @@ class Brenda(object):
                   a list of dictionary entries.
         """
         parsed = []
+        print(output)
         entries = output.split('!')  # ! is used to delimit entries
         for entry in entries:
             fields = entry.split('#')  # # delimits the fields
@@ -289,17 +292,17 @@ class Brenda(object):
         # out = f(pars)
 
         if func == "getKmValue":
-            out = self.client.getKmValue(pars)
+            out = self.client.service.getKmValue(*pars,"kmValue*","kmValueMaximum*","susbtrate*","commentary*","ligandStructureId*","literature*")
         elif func == "getKiValue":
-            out = self.client.getKiValue(pars)
+            out = self.client.service.getKiValue(*pars,"kiValue*","kiValueMaximum*","inhibitor*","commentary*","ligandStructureId*","literature*")
         elif func == "getTurnoverNumber":
-            out = self.client.getTurnoverNumber(pars)
+            out = self.client.service.getTurnoverNumber(*pars,"turnoverNumber*","turnoverNumberMaximum*","substrate*","commentary*","ligandStructureId*","literature*")
         # Note: It seems that Brenda actually only responds to the first number of the request.
         # Leading to returning the same references over and over again (i.e. reference ID: 1-9)
         # This has to be fixed on Brenda's backend. For now, just manually check the webpage
         # which seems to work fine regardless.
         elif func == "getReferenceById":
-            out = self.client.getReferenceById(pars)
+            out = self.client.service.getReferenceById(*pars)
 
         if out == 'Activation required, please check your emails!':
             raise BrendaError("User not activated: {}".format(self.user))
@@ -307,7 +310,8 @@ class Brenda(object):
             raise BrendaError("Incorrect password for user {}".format(self.user))
         if out == 'Unknown user. Please register. www.brenda-enzymes.org/register.php':
             raise BrendaError("Unknown user: {}".format(self.user))
-        elif out == '':
+        elif out == []:
+            print(out)
             # No output, can be either a malformed query or just no results.
             # However, we will leave this up to the caller to figure out as the first is
             # an error and the second is case correct but we cannot differentiate.
@@ -491,6 +495,7 @@ class Equilibrator(object):
     def getTransforms(self):
         """Create the data transforms that eQuilibrator can provide."""
         def f(**kwargs):
+            print(Identifiers.kegg_reaction)
             try:
                 dG0, sG0 = self.retrieve(kwargs[Identifiers.kegg_reaction])
                 Keq = self.calculateKeq(dG0)

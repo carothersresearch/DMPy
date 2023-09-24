@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by libAntimony version v2.12.0.3 with libSBML version 5.18.1. -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model metaid="__main" id="__main">
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="SERINE" compartment="default_compartment" initialConcentration="4.93095" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="HCO3" compartment="default_compartment" initialConcentration="73.5294" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PYRUVICACID" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MALICACID" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="OXALOACETICACID" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NH3" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ATP" compartment="default_compartment" initialConcentration="4.93095" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ADP" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NADH" compartment="default_compartment" initialConcentration="7.53695" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="NAD_plus" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SDA_MSMEG" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SDA_BSUB" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SDA_ECOLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SDA_LPNEU" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PCX_RETLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PCX_SCER" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PCX_MSMEG" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PCX_GTHERM" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MDH_ECOLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MDH_MDOM" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MDH_REMER" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="MDH_TAES" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_SDA_MSMEG" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_SDA_BSUB" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_SDA_ECOLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_SDA_LPNEU" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_PCX_RETLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_PCX_SCER" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_PCX_MSMEG" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_PCX_GTHERM" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_MDH_ECOLI" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_MDH_MDOM" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_MDH_REMER" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="DNA_MDH_TAES" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="AMP" value="0" constant="true"/>
+      <parameter id="NADPH" value="0" constant="true"/>
+      <parameter id="NADP_plus" value="0" constant="true"/>
+      <parameter id="kcat_R1" value="500" constant="true"/>
+      <parameter id="Km_R1" value="0.00258" constant="true"/>
+      <parameter id="kcat_R2" value="585" constant="true"/>
+      <parameter id="Km_R2" value="29.2" constant="true"/>
+      <parameter id="kcat_R3" value="436" constant="true"/>
+      <parameter id="Km_R3" value="2.67" constant="true"/>
+      <parameter id="kcat_R4" value="506" constant="true"/>
+      <parameter id="Km_R4" value="2.2" constant="true"/>
+      <parameter id="kcat_R5" value="7.33" constant="true"/>
+      <parameter id="Km1_R5" value="1.65" constant="true"/>
+      <parameter id="Km2_R5" value="10.8" constant="true"/>
+      <parameter id="maxC_ATP_C0" value="4" constant="true"/>
+      <parameter id="kcat_R6" value="60" constant="true"/>
+      <parameter id="Km1_R6" value="0.5" constant="true"/>
+      <parameter id="Km2_R6" value="1.36" constant="true"/>
+      <parameter id="kcat_R7" value="33.5" constant="true"/>
+      <parameter id="Km1_R7" value="0.375" constant="true"/>
+      <parameter id="Km2_R7" value="3.8" constant="true"/>
+      <parameter id="kcat_R8" value="33.5" constant="true"/>
+      <parameter id="Km1_R8" value="0.31" constant="true"/>
+      <parameter id="Km2_R8" value="45" constant="true"/>
+      <parameter id="kcat_R9" value="931" constant="true"/>
+      <parameter id="Km1_R9" value="4" constant="true"/>
+      <parameter id="maxC_NADH_C0" value="10" constant="true"/>
+      <parameter id="kcat_R10" value="4553" constant="true"/>
+      <parameter id="Km1_R10" value="0.405" constant="true"/>
+      <parameter id="Km2_R10" value="1.4" constant="true"/>
+      <parameter id="kcat_R11" value="81000" constant="true"/>
+      <parameter id="Km1_R11" value="0.02" constant="true"/>
+      <parameter id="Km2_R11" value="0.025" constant="true"/>
+      <parameter id="kcat_R12" value="121600" constant="true"/>
+      <parameter id="Km1_R12" value="3.23" constant="true"/>
+      <parameter id="Km2_R12" value="0.39" constant="true"/>
+      <parameter id="k_R13" value="0.082" constant="true"/>
+      <parameter id="k_R14" value="0.106" constant="true"/>
+      <parameter id="k_R15" value="0.012" constant="true"/>
+      <parameter id="k_TXTL" value="0.86" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="R1" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="SERINE" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_MSMEG" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SDA_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NH3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R1 </ci>
+                <ci> SDA_MSMEG </ci>
+                <ci> SERINE </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Km_R1 </ci>
+                <ci> SERINE </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R2" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="SERINE" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_BSUB" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SDA_BSUB" stoichiometry="1" constant="true"/>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NH3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R2 </ci>
+                <ci> SDA_BSUB </ci>
+                <ci> SERINE </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Km_R2 </ci>
+                <ci> SERINE </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R3" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="SERINE" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_ECOLI" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SDA_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NH3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R3 </ci>
+                <ci> SDA_ECOLI </ci>
+                <ci> SERINE </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Km_R3 </ci>
+                <ci> SERINE </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R4" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="SERINE" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_LPNEU" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="SDA_LPNEU" stoichiometry="1" constant="true"/>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NH3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R4 </ci>
+                <ci> SDA_LPNEU </ci>
+                <ci> SERINE </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Km_R4 </ci>
+                <ci> SERINE </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R5" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="HCO3" stoichiometry="1" constant="true"/>
+          <speciesReference species="ATP" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_RETLI" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PCX_RETLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="ADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kcat_R5 </ci>
+                  <ci> PCX_RETLI </ci>
+                  <ci> PYRUVICACID </ci>
+                  <ci> HCO3 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> PYRUVICACID </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R5 </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km2_R5 </ci>
+                    <ci> PYRUVICACID </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R5 </ci>
+                    <ci> Km2_R5 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> ATP </ci>
+                <ci> maxC_ATP_C0 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R6" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="HCO3" stoichiometry="1" constant="true"/>
+          <speciesReference species="ATP" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_SCER" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PCX_SCER" stoichiometry="1" constant="true"/>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="ADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kcat_R6 </ci>
+                  <ci> PCX_SCER </ci>
+                  <ci> PYRUVICACID </ci>
+                  <ci> HCO3 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> PYRUVICACID </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R6 </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km2_R6 </ci>
+                    <ci> PYRUVICACID </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R6 </ci>
+                    <ci> Km2_R6 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> ATP </ci>
+                <ci> maxC_ATP_C0 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R7" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="HCO3" stoichiometry="1" constant="true"/>
+          <speciesReference species="ATP" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_MSMEG" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PCX_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="ADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kcat_R7 </ci>
+                  <ci> PCX_MSMEG </ci>
+                  <ci> PYRUVICACID </ci>
+                  <ci> HCO3 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> PYRUVICACID </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R7 </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km2_R7 </ci>
+                    <ci> PYRUVICACID </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R7 </ci>
+                    <ci> Km2_R7 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> ATP </ci>
+                <ci> maxC_ATP_C0 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R8" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="HCO3" stoichiometry="1" constant="true"/>
+          <speciesReference species="ATP" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_GTHERM" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="PCX_GTHERM" stoichiometry="1" constant="true"/>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="ADP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kcat_R8 </ci>
+                  <ci> PCX_GTHERM </ci>
+                  <ci> PYRUVICACID </ci>
+                  <ci> HCO3 </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> PYRUVICACID </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R8 </ci>
+                    <ci> HCO3 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km2_R8 </ci>
+                    <ci> PYRUVICACID </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> Km1_R8 </ci>
+                    <ci> Km2_R8 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> ATP </ci>
+                <ci> maxC_ATP_C0 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R9" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NADH" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_ECOLI" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MDH_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="MALICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NAD_plus" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> kcat_R9 </ci>
+                  <ci> MDH_ECOLI </ci>
+                  <ci> OXALOACETICACID </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> Km1_R9 </ci>
+                  <ci> OXALOACETICACID </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> NADH </ci>
+                <ci> maxC_NADH_C0 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R10" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NADH" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_MDOM" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MDH_MDOM" stoichiometry="1" constant="true"/>
+          <speciesReference species="MALICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NAD_plus" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R10 </ci>
+                <ci> MDH_MDOM </ci>
+                <ci> OXALOACETICACID </ci>
+                <ci> NADH </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> OXALOACETICACID </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R10 </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km2_R10 </ci>
+                  <ci> OXALOACETICACID </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R10 </ci>
+                  <ci> Km2_R10 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R11" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NADH" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_REMER" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MDH_REMER" stoichiometry="1" constant="true"/>
+          <speciesReference species="MALICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NAD_plus" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R11 </ci>
+                <ci> MDH_REMER </ci>
+                <ci> OXALOACETICACID </ci>
+                <ci> NADH </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> OXALOACETICACID </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R11 </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km2_R11 </ci>
+                  <ci> OXALOACETICACID </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R11 </ci>
+                  <ci> Km2_R11 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R12" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="OXALOACETICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NADH" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_TAES" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="MDH_TAES" stoichiometry="1" constant="true"/>
+          <speciesReference species="MALICACID" stoichiometry="1" constant="true"/>
+          <speciesReference species="NAD_plus" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat_R12 </ci>
+                <ci> MDH_TAES </ci>
+                <ci> OXALOACETICACID </ci>
+                <ci> NADH </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> OXALOACETICACID </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R12 </ci>
+                  <ci> NADH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km2_R12 </ci>
+                  <ci> OXALOACETICACID </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Km1_R12 </ci>
+                  <ci> Km2_R12 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R13" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="SERINE" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_R13 </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R14" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="PYRUVICACID" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_R14 </ci>
+              <ci> PYRUVICACID </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R15" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="MALICACID" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_R15 </ci>
+              <ci> MALICACID </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R16" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_SDA_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_SDA_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_MSMEG" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_SDA_MSMEG </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R17" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_SDA_BSUB" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_SDA_BSUB" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_BSUB" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_SDA_BSUB </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R18" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_SDA_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_SDA_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_ECOLI" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_SDA_ECOLI </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R19" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_SDA_LPNEU" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_SDA_LPNEU" stoichiometry="1" constant="true"/>
+          <speciesReference species="SDA_LPNEU" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_SDA_LPNEU </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R20" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_PCX_RETLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="22" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_PCX_RETLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_RETLI" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_PCX_RETLI </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R21" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_PCX_SCER" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="22" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_PCX_SCER" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_SCER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_PCX_SCER </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R22" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_PCX_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="22" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_PCX_MSMEG" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_MSMEG" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_PCX_MSMEG </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R23" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_PCX_GTHERM" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="22" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_PCX_GTHERM" stoichiometry="1" constant="true"/>
+          <speciesReference species="PCX_GTHERM" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_PCX_GTHERM </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R24" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_MDH_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_MDH_ECOLI" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_ECOLI" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_MDH_ECOLI </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R25" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_MDH_MDOM" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_MDH_MDOM" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_MDOM" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_MDH_MDOM </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R26" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_MDH_REMER" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_MDH_REMER" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_REMER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_MDH_REMER </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R27" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference species="DNA_MDH_TAES" stoichiometry="1" constant="true"/>
+          <speciesReference species="SERINE" stoichiometry="15" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="DNA_MDH_TAES" stoichiometry="1" constant="true"/>
+          <speciesReference species="MDH_TAES" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_TXTL </ci>
+              <ci> DNA_MDH_TAES </ci>
+              <ci> SERINE </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -168,8 +168,9 @@ class Tracer(object):
             # Check each possible transform.
             for req, transformlist in self.graph.items():
                 # If the requirements are a subset of available and possible combined.
+                print(task.available)
                 if req <= (task.available | possible):
-                    # Check each transform
+                    print('Check each transform')
                     for transform in transformlist:
                         # If the output has items not available or possible.
                         # if transform.output - (task.available | possible):

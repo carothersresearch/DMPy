@@ -23,7 +23,6 @@ from identifiers import Identifiers
 
 import balancer
 
-
 def create_tasks(reaction, organism):
     """Create a task per reaction."""
     data = dict(reaction.identifiers)
@@ -528,7 +527,7 @@ if __name__ == "__main__":
 
     # Standard only brenda and kegg are used. The others require some setup [See README]
     main(args.modelpath, args.organism, args.outdir, suffix='',
-         databases='kegg', method=method, stopat='kineticize', skipbrendalogin=False)
+         databases='brenda kegg', method=method, stopat='balance', skipbrendalogin=False)
 
 
 # Example Hynne glycolis model
