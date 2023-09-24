@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml level="2" version="1" xmlns="http://www.sbml.org/sbml/level2">
+  <model id="CNA_stoichiometric_model" name="CNA_stoichiometric_model">
+    <listOfCompartments>
+      <compartment id="External_Species"/>
+      <compartment id="Internal_Species"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_13dpg_c" name="3-Phospho-D-glyceroyl-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H4O10P2</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_2pg_c" name="D-Glycerate-2-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H4O7P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_3pg_c" name="3-Phospho-D-glycerate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H4O7P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_adp_c" name="ADP">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O10P2</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_atp_c" name="ATP">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O13P3</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_dhap_c" name="Dihydroxyacetone-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H5O6P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_f6p_c" name="D-Fructose-6-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H11O9P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_fdp_c" name="D-Fructose-1-6-bisphosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H10O12P2</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_g3p_c" name="Glyceraldehyde-3-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H5O6P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_g6p_c" name="D-Glucose-6-phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H11O9P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_h2o_c" name="H2O">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_h_c" name="H">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_mal_L_c" name="L-Malate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H4O5</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_nad_c" name="Nicotinamide-adenine-dinucleotide">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O14P2</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_nadh_c" name="Nicotinamide-adenine-dinucleotide-reduced">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O14P2</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_pep_c" name="Phosphoenolpyruvate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H2O6P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_pi_c" name="Phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_pyr_c" name="Pyruvate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H3O3</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="false" compartment="Internal_Species" id="M_succ_c" name="Succinate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H4O4</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_fru_e" name="D-Fructose">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H12O6</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_glc_D_e" name="D-Glucose">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H12O6</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_gln_L_e" name="L-Glutamine">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C5H10N2O3</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_glu_L_e" name="L-Glutamate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C5H8NO4</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_h2o_e" name="H2O">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_h_e" name="H">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_mal_L_e" name="L-Malate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H4O5</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_nh4_e" name="Ammonium">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H4N</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_pi_e" name="Phosphate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_pyr_e" name="Pyruvate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H3O3</p>
+          </html>
+        </notes>
+      </species>
+      <species boundaryCondition="true" compartment="External_Species" id="M_succ_e" name="Succinate">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H4O4</p>
+          </html>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_ENO" name="enolase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b2779</p>
+            <p>GENE_LIST: b2779</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_2pg_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FBA" name="fructose-bisphosphate aldolase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b2097 or b1773 or b2925)</p>
+            <p>GENE_LIST: b1773 b2097 b2925</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_dhap_c" stoichiometry="1"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FBP" name="fructose-bisphosphatase" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b3925 or b4232)</p>
+            <p>GENE_LIST: b3925 b4232</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FRUpts2" name="Fructose transport via PEP:Pyr PTS (f6p generating)" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b1817 and b1818 and b1819 and b2415 and b2416)</p>
+            <p>GENE_LIST: b1817 b1818 b1819 b2415 b2416</p>
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+          <speciesReference species="M_fru_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GAPD" name="glyceraldehyde-3-phosphate dehydrogenase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b1779</p>
+            <p>GENE_LIST: b1779</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLCpts" name="D-glucose transport via PEP:Pyr PTS" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ((b2417 and b1101 and b2415 and b2416) or (b1817 and b1818 and b1819 and b2415 and b2416) or (b2417 and b1621 and b2415 and b2416))</p>
+            <p>GENE_LIST: b1101 b1621 b1817 b1818 b1819 b2415 b2416 b2417</p>
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+          <speciesReference species="M_glc_D_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_g6p_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PFK" name="phosphofructokinase" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ( b3916  or  b1723 )</p>
+            <p>GENE_LIST: b1723 b3916</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PGI" name="glucose-6-phosphate isomerase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b4025</p>
+            <p>GENE_LIST: b4025</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_g6p_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PGK" name="phosphoglycerate kinase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b2926</p>
+            <p>GENE_LIST: b2926</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_3pg_c" stoichiometry="1"/>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1"/>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PGM" name="phosphoglycerate mutase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b3612 or b4395 or b0755)</p>
+            <p>GENE_LIST: b0755 b3612 b4395</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_2pg_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_3pg_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PYK" name="pyruvate kinase" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b1854 or b1676)</p>
+            <p>GENE_LIST: b1676 b1854</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TPI" name="triose-phosphate isomerase" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b3919</p>
+            <p>GENE_LIST: b3919</p>
+            <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_dhap_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_Biomass_Ecoli_core_w_GAM_R_GLNabc_R_GLUN_R_GLUt2r_R_ICDHyr_R_ICL_R_MALS_R_MDH_R_NH4t_R_PDH_R_PIt2r_R_PPC_R_RPE_R_RPI_R_TALA_R_THD2_R_TKT1_R_TKT2_lumped" name="R_Biomass_Ecoli_core_w_GAM*R_GLNabc*R_GLUN*R_GLUt2r*R_ICDHyr*R_ICL*R_MALS*R_MDH*R_NH4t*R_PDH*R_PIt2r*R_PPC*R_RPE*R_RPI*R_TALA*R_THD2*R_TKT1*R_TKT2*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_3pg_c" stoichiometry="0.08725"/>
+          <speciesReference species="M_atp_c" stoichiometry="7.2902"/>
+          <speciesReference species="M_f6p_c" stoichiometry="0.046057"/>
+          <speciesReference species="M_g3p_c" stoichiometry="0.039012"/>
+          <speciesReference species="M_g6p_c" stoichiometry="0.011956"/>
+          <speciesReference species="M_h2o_c" stoichiometry="11.536"/>
+          <speciesReference species="M_nadh_c" stoichiometry="0.44874"/>
+          <speciesReference species="M_pep_c" stoichiometry="0.24886"/>
+          <speciesReference species="M_pyr_c" stoichiometry="0.62398"/>
+          <speciesReference species="M_gln_L_e" stoichiometry="3.8019"/>
+          <speciesReference species="M_pi_e" stoichiometry="0.21455"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="7.2902"/>
+          <speciesReference species="M_h_c" stoichiometry="6.3503"/>
+          <speciesReference species="M_mal_L_c" stoichiometry="0.35456"/>
+          <speciesReference species="M_nad_c" stoichiometry="0.44874"/>
+          <speciesReference species="M_pi_c" stoichiometry="7.7233"/>
+          <speciesReference species="M_succ_c" stoichiometry="0.24018"/>
+          <speciesReference species="M_glu_L_e" stoichiometry="3.4988"/>
+          <speciesReference species="M_h_e" stoichiometry="1.2843"/>
+          <speciesReference species="M_nh4_e" stoichiometry="3.787"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SUCCt3" name="succinate transport out via proton antiport" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_succ_c" stoichiometry="1"/>
+          <speciesReference species="M_h_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_succ_e" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PYRt2r" name="pyruvate reversible transport via proton symport" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="1"/>
+          <speciesReference species="M_pyr_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FRD7_R_FUM_R_NADH16_lumped" name="R_FRD7*R_FUM*R_NADH16*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_h_c" stoichiometry="4"/>
+          <speciesReference species="M_mal_L_c" stoichiometry="1"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_succ_c" stoichiometry="1"/>
+          <speciesReference species="M_h_e" stoichiometry="3"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MALt2_2" name="Malate transport via proton symport (2 H)" reversible="false">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: b3528</p>
+            <p>GENE_LIST: b3528</p>
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h_e" stoichiometry="2"/>
+          <speciesReference species="M_mal_L_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="2"/>
+          <speciesReference species="M_mal_L_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_H2Ot" name="H2O transport via diffusion" reversible="true">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (b0875 or s0001)</p>
+            <p>GENE_LIST: b0875 s0001</p>
+            <p>SUBSYSTEM: Transport, Extracellular</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_h2o_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

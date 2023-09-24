@@ -1,0 +1,1425 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="CNA_stoichiometric_model" name="CNA_stoichiometric_model">
+    <listOfCompartments>
+      <compartment id="External_Species"/>
+      <compartment id="Internal_Species"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_10fthf_c" name="10-Formyltetrahydrofolate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C20H21N7O7</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_13dpg_c" name="3-Phospho-D-glyceroyl phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H4O10P2</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_2dmmq8_c" name="2-Demethylmenaquinone 8" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C50H70O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_2dmmql8_c" name="2-Demethylmenaquinol 8" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C50H72O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_2pg_c" name="D-Glycerate 2-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H4O7P</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_3pg_c" name="3-Phospho-D-glycerate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H4O7P</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_accoa_c" name="Acetyl-CoA" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C23H34N7O17P3S</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_adp_c" name="ADP" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H12N5O10P2</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_adpglc_c" name="ADPglucose" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C16H23N5O15P2</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_amp_c" name="AMP" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H12N5O7P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_atp_c" name="ATP" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H12N5O13P3</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_bglycogen_c" name="branching glycogen" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H10O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_co2_c" name="CO2" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: CO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_coa_c" name="Coenzyme A" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C21H32N7O16P3S</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_dhap_c" name="Dihydroxyacetone phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H5O6P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_f6p_c" name="D-Fructose 6-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H11O9P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_fdp_c" name="D-Fructose 1,6-bisphosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H10O12P2</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_for_c" name="Formate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: CH1O2</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_g1p_c" name="D-Glucose 1-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H11O9P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_g3p_c" name="Glyceraldehyde 3-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H5O6P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_g6p_c" name="D-Glucose 6-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H11O9P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_glc_DASH_D_c" name="D-Glucose" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H12O6</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_gly_c" name="Glycine" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C2H5NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_glycogen_c" name="glycogen" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H10O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_h_c" name="H+" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: H</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_h2o_c" name="H2O" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: H2O</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_mlthf_c" name="5,10-Methylenetetrahydrofolate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C20H21N7O6</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_na1_c" name="Sodium" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Na</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_nad_c" name="Nicotinamide adenine dinucleotide" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C21H26N7O14P2</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_nadh_c" name="Nicotinamide adenine dinucleotide - reduced" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C21H27N7O14P2</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_nadp_c" name="Nicotinamide adenine dinucleotide phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C21H25N7O17P3</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_nadph_c" name="Nicotinamide adenine dinucleotide phosphate - reduced" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C21H26N7O17P3</p>
+                        <p>CHARGE: -4</p>
+                    </body>
+                </notes></species>
+      <species id="M_nh4_c" name="Ammonium" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: H4N</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_oaa_c" name="Oxaloacetate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H2O5</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_pep_c" name="Phosphoenolpyruvate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H2O6P</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_pi_c" name="Phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: HO4P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_ppi_c" name="Diphosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: HO7P2</p>
+                        <p>CHARGE: -3</p>
+                    </body>
+                </notes></species>
+      <species id="M_prpp_c" name="5-Phospho-alpha-D-ribose 1-diphosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H8O14P3</p>
+                        <p>CHARGE: -5</p>
+                    </body>
+                </notes></species>
+      <species id="M_pyr_c" name="Pyruvate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H3O3</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_r1p_c" name="alpha-D-Ribose 1-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H9O8P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_r5p_c" name="alpha-D-Ribose 5-phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H9O8P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_ser_DASH_L_c" name="L-Serine" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H7NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_succ_c" name="Succinate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H4O4</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_thf_c" name="5,6,7,8-Tetrahydrofolate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C19H21N7O6</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_thr_DASH_L_c" name="L-Threonine" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H9NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_uri_c" name="Uridine" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H12N2O6</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_h_p" name="H+" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: H</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_na1_p" name="Sodium" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Na</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_pi_p" name="Phosphate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: HO4P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_succ_p" name="Succinate" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H4O4</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_tyr_DASH_L_p" name="L-Tyrosine" compartment="Internal_Species" boundaryCondition="false"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H11NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_LalaLglu_e" name="L-alanine-L-glutamate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C8H13N2O5</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_ala_DASH_D_e" name="D-Alanine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H7NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_arg_DASH_L_e" name="L-Arginine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H15N4O2</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_asn_DASH_L_e" name="L-Asparagine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H8N2O3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_asp_DASH_L_e" name="L-Aspartate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H6NO4</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_btn_e" name="Biotin" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H15N2O3S</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_ca2_e" name="Calcium" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Ca</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_cl_e" name="Chloride" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Cl</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_cobalt2_e" name="Co2+" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Co</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_cu2_e" name="Cu2+" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Cu</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_cys_DASH_L_e" name="L-Cysteine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H7NO2S</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_cytd_e" name="Cytidine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H13N3O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_feoxam_e" name="ferroxamine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C25H46FeN6O8</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_feoxam_DASH_un_e" name="ferroxamine minus Fe(3)" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C25H46N6O8</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_gln_DASH_L_e" name="L-Glutamine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H10N2O3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_gly_e" name="Glycine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C2H5NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_glyc_e" name="Glycerol" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H8O3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_gua_e" name="Guanine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H5N5O</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_hdca_e" name="Hexadecanoate (n-C16:0)" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C16H31O2</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_hdcea_e" name="Hexadecenoate (n-C16:1)" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C16H29O2</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_his_DASH_L_e" name="L-Histidine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H9N3O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_ile_DASH_L_e" name="L-Isoleucine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H13NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_ins_e" name="Inosine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H12N4O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_k_e" name="potassium" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: K</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_kdo2lipid4_e" name="KDO(2)-lipid IV(A)" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C84H148N2O37P2</p>
+                        <p>CHARGE: -6</p>
+                    </body>
+                </notes></species>
+      <species id="M_leu_DASH_L_e" name="L-Leucine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H13NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_lys_DASH_L_e" name="L-Lysine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H15N2O2</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_met_DASH_L_e" name="L-Methionine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H11NO2S</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_mg2_e" name="magnesium" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Mg</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_mn2_e" name="Mn2+" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Mn</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_mobd_e" name="Molybdate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: MoO4</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_n2o_e" name="Nitrous oxide" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: N2O</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_nh4_e" name="Ammonium" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: H4N</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_ni2_e" name="nickel" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Ni</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+      <species id="M_nmn_e" name="NMN" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C11H14N2O8P</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_no_e" name="Nitric oxide" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: NO</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_o2_e" name="O2" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_phe_DASH_L_e" name="L-Phenylalanine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H11NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_pheme_e" name="Protoheme" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C34H30FeN4O4</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_pi_e" name="Phosphate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: HO4P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_pnto_DASH_R_e" name="(R)-Pantothenate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H16NO5</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_pro_DASH_L_e" name="L-Proline" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H9NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_pydx_e" name="Pyridoxal" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C8H9NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_pyr_e" name="Pyruvate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H3O3</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_sbt_DASH_D_e" name="D-Sorbitol" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C6H14O6</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_skm_e" name="Shikimate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C7H9O5</p>
+                        <p>CHARGE: -1</p>
+                    </body>
+                </notes></species>
+      <species id="M_so4_e" name="Sulfate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: O4S</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_succ_e" name="Succinate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H4O4</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_tartr_DASH_L_e" name="L-tartrate" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H4O6</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_thm_e" name="Thiamin" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C12H17N4OS</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_thr_DASH_L_e" name="L-Threonine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H9NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_thymd_e" name="Thymidine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H14N2O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_tma_e" name="trimethylamine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H10N</p>
+                        <p>CHARGE: 1</p>
+                    </body>
+                </notes></species>
+      <species id="M_tmao_e" name="Trimethylamine N-oxide" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C3H9NO</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_trp_DASH_L_e" name="L-Tryptophan" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C11H12N2O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_tyr_DASH_L_e" name="L-Tyrosine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H11NO3</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_tyrp_e" name="Phosphotyrosine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H10NO6P</p>
+                        <p>CHARGE: -2</p>
+                    </body>
+                </notes></species>
+      <species id="M_ura_e" name="Uracil" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C4H4N2O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_uri_e" name="Uridine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C9H12N2O6</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_val_DASH_L_e" name="L-Valine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H11NO2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_xan_e" name="Xanthine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H4N4O2</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_xtsn_e" name="Xanthosine" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C10H12N4O6</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_xyl_DASH_D_e" name="D-Xylose" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: C5H10O5</p>
+                        <p>CHARGE: 0</p>
+                    </body>
+                </notes></species>
+      <species id="M_zn2_e" name="Zinc" compartment="External_Species" boundaryCondition="true"><notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>FORMULA: Zn</p>
+                        <p>CHARGE: 2</p>
+                    </body>
+                </notes></species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_ENO" name="enolase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b2779</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 4.2.1.11</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_2pg_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FBA" name="fructose-bisphosphate aldolase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b2097 or b1773 or b2925)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 4.1.2.13</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_dhap_c" stoichiometry="1"/>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_FBP" name="fructose-bisphosphatase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b3925 or b4232 or b2930)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 3.1.3.11</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_G6PP" name="glucose-6-phosphate phosphatase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b0822</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 3.1.3.9</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_g6p_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glc_DASH_D_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLBRAN2" name="1,4-alpha-glucan branching enzyme (glycogen -&gt;bglycogen)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3432</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.4.1.18</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_glycogen_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_bglycogen_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLCP" name="glycogen phosphorylase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b3428 or b3417)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.4.1.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_glycogen_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_g1p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLCP2" name="glycogen phosphorylase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b3417 or b3428)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.4.1.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_bglycogen_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_g1p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLCS1" name="glycogen synthase (ADPGlc)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3429</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.4.1.21</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_adpglc_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_glycogen_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLDBRAN2" name="glycogen debranching enzyme (bglycogen -&gt;glycogen)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3431</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_bglycogen_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_glycogen_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLGC" name="glucose-1-phosphate adenylyltransferase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3430</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.7.27</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_g1p_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adpglc_c" stoichiometry="1"/>
+          <speciesReference species="M_ppi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_HEX1" name="hexokinase (D-glucose:ATP)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b2388</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.1.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_glc_DASH_D_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_g6p_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PDH" name="pyruvate dehydrogenase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b0114 and b0115 and b0116)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_coa_c" stoichiometry="1"/>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_accoa_c" stoichiometry="1"/>
+          <speciesReference species="M_co2_c" stoichiometry="1"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PFK" name="phosphofructokinase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b3916 or b1723)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.1.11</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_fdp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PGK" name="phosphoglycerate kinase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b2926</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.2.3</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_3pg_c" stoichiometry="1"/>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1"/>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PGM" name="phosphoglycerate mutase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b3612 or b4395 or b0755)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 5.4.2.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_2pg_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_3pg_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PPS" name="phosphoenolpyruvate synthase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b1702</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.9.2</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_amp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="2"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PYK" name="pyruvate kinase" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b1854 or b1676)</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 2.7.1.40</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TPI" name="triose-phosphate isomerase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3919</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 5.3.1.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_dhap_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_DM_MTHTHF_R_Ec_biomass_iJO1366_core_53p95M_R_AACPS3_R_AACPS4_R_ADCL_R_ADCS_R_ADSL1r_R_ADSS_R_AGPAT160_R_AGPAT161_R_AHCYSNS_R_ALAALAr_R_APRAUR_R_ARGabcpp_R_ARGtex_R_ASAD_R_ASNt2rpp_R_ASNtex_R_ASPK_R_ASPtex_R_BMOCOS_R_BMOGDS1_R_BMOGDS2_R_BTNt2ipp_R_BTNtex_R_CA2tex_R_CAt6pp_R_CDPMEK_R_CHORS_R_CHRPL_R_CLt3_2pp_R_CLtex_R_COBALT2tex_R_COBALT2tpp_R_CPMPS_R_CPPPGO_R_CU2tex_R_CU2tpp_R_CYSabcpp_R_CYStex_R_CYTDK2_R_CYTDt2rpp_R_CYTDtex_R_CYTK1_R_DADA_R_DALAt2pp_R_DALAtex_R_DAPE_R_DASYN160_R_DASYN161_R_DB4PS_R_DHDPRy_R_DHDPS_R_DHFR_R_DHFS_R_DHNPA2r_R_DHPPDA2_R_DHPS2_R_DHPTDCs2_R_DMATT_R_DNMPPA_R_DNTPPA_R_DPCOAK_R_DTMPK_R_DXPRIi_R_DXPS_R_FACOAE160_R_FACOAE161_R_FACOAL160t2pp_R_FACOAL161t2pp_R_FCLT_R_FEOXAMR3_R_FEOXAMUtex_R_FEOXAMUtpp_R_FEOXAMabcpp_R_FEOXAMtonex_R_FESD2s_R_FESR_R_FLVRx_R_FMNAT_R_G1PACT_R_G1SAT_R_G3PAT160_R_G3PAT161_R_GCALDD_R_GF6PTA_R_GK1_R_GLNabcpp_R_GLNtex_R_GLUR_R_GLUTRR_R_GLUTRS_R_GLYCTO4_R_GLYCtex_R_GLYCtpp_R_GLYK_R_GRTT_R_GTPCI_R_GTPCII2_R_GUAPRT_R_GUAtex_R_GUAtpp_R_HBZOPT_R_HDCAtexi_R_HDCEAtexi_R_HISt2rpp_R_HIStex_R_HMBS_R_HPPK2_R_ICYSDS_R_ILEt2rpp_R_ILEtex_R_INSK_R_INSt2rpp_R_INStex_R_IPDDI_R_IPDPS_R_Kt2pp_R_Ktex_R_LALALGLUtex_R_LALALGLUtpp_R_LALGP_R_LEUt2rpp_R_LEUtex_R_LYSt2pp_R_LYStex_R_MALS_R_MCTP1App_R_MECDPDH5_R_MECDPS_R_MEPCT_R_METAT_R_METS_R_METabcpp_R_METtex_R_MG2tex_R_MG2uabcpp_R_MNt2pp_R_MNtex_R_MOADSUx_R_MOBDabcpp_R_MOBDtex_R_MOCOS_R_MOX_R_MPTAT_R_MPTG_R_MPTS_R_MPTSS_R_MTHFR2_R_MTHTHFSs_R_N2Otex_R_N2Otpp_R_NADK_R_NDPK1_R_NDPK2_R_NDPK3_R_NDPK4_R_NDPK7_R_NI2tex_R_NI2uabcpp_R_NMNAT_R_NMNPtpp_R_NMNtex_R_NOtex_R_NOtpp_R_O2tex_R_O2tpp_R_OCTDPS_R_OPHBDC_R_OPHHX3_R_P5CR_R_PAPPT3_R_PE160abcpp_R_PE161abcpp_R_PGAMT_R_PGCD_R_PHEMEabcpp_R_PHEMEtiex_R_PHEt2rpp_R_PHEtex_R_PIuabcpp_R_PMDPHT_R_PNTK_R_PNTOt4pp_R_PNTOtex_R_POR5_R_PPBNGS_R_PPC_R_PPCDC_R_PPNCL2_R_PPPGO3_R_PROD2_R_PROt4pp_R_PROtex_R_PSCVT_R_PSD160_R_PSD161_R_PSERT_R_PSP_L_R_PSSA160_R_PSSA161_R_PTPATi_R_PUNP2_R_PUNP5_R_PUNP6_R_PYDXK_R_PYDXtex_R_PYDXtpp_R_RBFK_R_RBFSa_R_RBFSb_R_RHCCE_R_RNDR3_R_RNTR1c2_R_RNTR2c2_R_RPI_R_S2FE2SS_R_S2FE2SS2_R_S2FE2ST_R_S4FE4SR_R_S4FE4ST_R_SCYSDS_R_SDPDS_R_SDPTA_R_SHCHD2_R_SHCHF_R_SHKK_R_SKMt2pp_R_SKMtex_R_SO4tex_R_SUCASPtpp_R_SUCCt3pp_R_SUCOAS_R_SULabcpp_R_THDPS_R_THIORDXi_R_THMDt2rpp_R_THMDtex_R_THMabcpp_R_THMtex_R_TMDK1_R_TMK_R_TMPK_R_TRDR_R_TRPt2rpp_R_TRPtex_R_TYRt2rpp_R_UAAGDS_R_UAGCVT_R_UAGDP_R_UAGPT3_R_UAMAGS_R_UAMAS_R_UAPGR_R_UDCPDP_R_UDCPDPS_R_UGMDDS_R_UMPK_R_UPP3MT_R_UPP3S_R_UPPDC1_R_URIK2_R_VALTA_R_VALt2rpp_R_VALtex_R_VPAMTr_R_ZNabcpp_R_Zn2tex_lumped" name="R_DM_MTHTHF*R_Ec_biomass_iJO1366_core_53p95M*R_AACPS3*R_AACPS4*R_ADCL*R_ADCS*R_ADSL1r*R_ADSS*R_AGPAT160*R_AGPAT161*R_AHCYSNS*R_ALAALAr*R_APRAUR*R_ARGabcpp*R_ARGtex*R_ASAD*R_ASNt2rpp*R_ASNtex*R_ASPK*R_ASPtex*R_BMOCOS*R_BMOGDS1*R_BMOGDS2*R_BTNt2ipp*R_BTNtex*R_CA2tex*R_CAt6pp*R_CDPMEK*R_CHORS*R_CHRPL*R_CLt3_2pp*R_CLtex*R_COBALT2tex*R_COBALT2tpp*R_CPMPS*R_CPPPGO*R_CU2tex*R_CU2tpp*R_CYSabcpp*R_CYStex*R_CYTDK2*R_CYTDt2rpp*R_CYTDtex*R_CYTK1*R_DADA*R_DALAt2pp*R_DALAtex*R_DAPE*R_DASYN160*R_DASYN161*R_DB4PS*R_DHDPRy*R_DHDPS*R_DHFR*R_DHFS*R_DHNPA2r*R_DHPPDA2*R_DHPS2*R_DHPTDCs2*R_DMATT*R_DNMPPA*R_DNTPPA*R_DPCOAK*R_DTMPK*R_DXPRIi*R_DXPS*R_FACOAE160*R_FACOAE161*R_FACOAL160t2pp*R_FACOAL161t2pp*R_FCLT*R_FEOXAMR3*R_FEOXAMUtex*R_FEOXAMUtpp*R_FEOXAMabcpp*R_FEOXAMtonex*R_FESD2s*R_FESR*R_FLVRx*R_FMNAT*R_G1PACT*R_G1SAT*R_G3PAT160*R_G3PAT161*R_GCALDD*R_GF6PTA*R_GK1*R_GLNabcpp*R_GLNtex*R_GLUR*R_GLUTRR*R_GLUTRS*R_GLYCTO4*R_GLYCtex*R_GLYCtpp*R_GLYK*R_GRTT*R_GTPCI*R_GTPCII2*R_GUAPRT*R_GUAtex*R_GUAtpp*R_HBZOPT*R_HDCAtexi*R_HDCEAtexi*R_HISt2rpp*R_HIStex*R_HMBS*R_HPPK2*R_ICYSDS*R_ILEt2rpp*R_ILEtex*R_INSK*R_INSt2rpp*R_INStex*R_IPDDI*R_IPDPS*R_Kt2pp*R_Ktex*R_LALALGLUtex*R_LALALGLUtpp*R_LALGP*R_LEUt2rpp*R_LEUtex*R_LYSt2pp*R_LYStex*R_MALS*R_MCTP1App*R_MECDPDH5*R_MECDPS*R_MEPCT*R_METAT*R_METS*R_METabcpp*R_METtex*R_MG2tex*R_MG2uabcpp*R_MNt2pp*R_MNtex*R_MOADSUx*R_MOBDabcpp*R_MOBDtex*R_MOCOS*R_MOX*R_MPTAT*R_MPTG*R_MPTS*R_MPTSS*R_MTHFR2*R_MTHTHFSs*R_N2Otex*R_N2Otpp*R_NADK*R_NDPK1*R_NDPK2*R_NDPK3*R_NDPK4*R_NDPK7*R_NI2tex*R_NI2uabcpp*R_NMNAT*R_NMNPtpp*R_NMNtex*R_NOtex*R_NOtpp*R_O2tex*R_O2tpp*R_OCTDPS*R_OPHBDC*R_OPHHX3*R_P5CR*R_PAPPT3*R_PE160abcpp*R_PE161abcpp*R_PGAMT*R_PGCD*R_PHEMEabcpp*R_PHEMEtiex*R_PHEt2rpp*R_PHEtex*R_PIuabcpp*R_PMDPHT*R_PNTK*R_PNTOt4pp*R_PNTOtex*R_POR5*R_PPBNGS*R_PPC*R_PPCDC*R_PPNCL2*R_PPPGO3*R_PROD2*R_PROt4pp*R_PROtex*R_PSCVT*R_PSD160*R_PSD161*R_PSERT*R_PSP_L*R_PSSA160*R_PSSA161*R_PTPATi*R_PUNP2*R_PUNP5*R_PUNP6*R_PYDXK*R_PYDXtex*R_PYDXtpp*R_RBFK*R_RBFSa*R_RBFSb*R_RHCCE*R_RNDR3*R_RNTR1c2*R_RNTR2c2*R_RPI*R_S2FE2SS*R_S2FE2SS2*R_S2FE2ST*R_S4FE4SR*R_S4FE4ST*R_SCYSDS*R_SDPDS*R_SDPTA*R_SHCHD2*R_SHCHF*R_SHKK*R_SKMt2pp*R_SKMtex*R_SO4tex*R_SUCASPtpp*R_SUCCt3pp*R_SUCOAS*R_SULabcpp*R_THDPS*R_THIORDXi*R_THMDt2rpp*R_THMDtex*R_THMabcpp*R_THMtex*R_TMDK1*R_TMK*R_TMPK*R_TRDR*R_TRPt2rpp*R_TRPtex*R_TYRt2rpp*R_UAAGDS*R_UAGCVT*R_UAGDP*R_UAGPT3*R_UAMAGS*R_UAMAS*R_UAPGR*R_UDCPDP*R_UDCPDPS*R_UGMDDS*R_UMPK*R_UPP3MT*R_UPP3S*R_UPPDC1*R_URIK2*R_VALTA*R_VALt2rpp*R_VALtex*R_VPAMTr*R_ZNabcpp*R_Zn2tex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_10fthf_c" stoichiometry="0.002379"/>
+          <speciesReference species="M_2dmmq8_c" stoichiometry="0.0071371"/>
+          <speciesReference species="M_3pg_c" stoichiometry="2.2985"/>
+          <speciesReference species="M_accoa_c" stoichiometry="0.0071797"/>
+          <speciesReference species="M_atp_c" stoichiometry="638.7842"/>
+          <speciesReference species="M_co2_c" stoichiometry="0.0071797"/>
+          <speciesReference species="M_f6p_c" stoichiometry="0.5929"/>
+          <speciesReference species="M_g3p_c" stoichiometry="0.025486"/>
+          <speciesReference species="M_gly_c" stoichiometry="6.5358"/>
+          <speciesReference species="M_h2o_c" stoichiometry="552.253"/>
+          <speciesReference species="M_mlthf_c" stoichiometry="0.0071371"/>
+          <speciesReference species="M_nad_c" stoichiometry="1.8264"/>
+          <speciesReference species="M_nadph_c" stoichiometry="7.0744"/>
+          <speciesReference species="M_pep_c" stoichiometry="6.7917"/>
+          <speciesReference species="M_prpp_c" stoichiometry="2.6"/>
+          <speciesReference species="M_r1p_c" stoichiometry="0.004758"/>
+          <speciesReference species="M_r5p_c" stoichiometry="0.0095161"/>
+          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1.4868"/>
+          <speciesReference species="M_succ_c" stoichiometry="6.4929"/>
+          <speciesReference species="M_thr_DASH_L_c" stoichiometry="2.7064"/>
+          <speciesReference species="M_uri_c" stoichiometry="1.5373"/>
+          <speciesReference species="M_h_p" stoichiometry="48.1901"/>
+          <speciesReference species="M_na1_p" stoichiometry="2.3089"/>
+          <speciesReference species="M_pi_p" stoichiometry="9.8515"/>
+          <speciesReference species="M_tyr_DASH_L_p" stoichiometry="1.4711"/>
+          <speciesReference species="M_LalaLglu_e" stoichiometry="8.3547"/>
+          <speciesReference species="M_ala_DASH_D_e" stoichiometry="0.44467"/>
+          <speciesReference species="M_arg_DASH_L_e" stoichiometry="3.1556"/>
+          <speciesReference species="M_asn_DASH_L_e" stoichiometry="2.5716"/>
+          <speciesReference species="M_asp_DASH_L_e" stoichiometry="5.0523"/>
+          <speciesReference species="M_btn_e" stoichiometry="2.1337e-05"/>
+          <speciesReference species="M_ca2_e" stoichiometry="0.055528"/>
+          <speciesReference species="M_cl_e" stoichiometry="0.055528"/>
+          <speciesReference species="M_cobalt2_e" stoichiometry="0.00026671"/>
+          <speciesReference species="M_cu2_e" stoichiometry="0.0075638"/>
+          <speciesReference species="M_cys_DASH_L_e" stoichiometry="1"/>
+          <speciesReference species="M_cytd_e" stoichiometry="1.7125"/>
+          <speciesReference species="M_feoxam_e" stoichiometry="0.89705"/>
+          <speciesReference species="M_gln_DASH_L_e" stoichiometry="3.4075"/>
+          <speciesReference species="M_glyc_e" stoichiometry="1.4832"/>
+          <speciesReference species="M_gua_e" stoichiometry="2.6"/>
+          <speciesReference species="M_hdca_e" stoichiometry="1.3616"/>
+          <speciesReference species="M_hdcea_e" stoichiometry="1.6048"/>
+          <speciesReference species="M_his_DASH_L_e" stoichiometry="1.0107"/>
+          <speciesReference species="M_ile_DASH_L_e" stoichiometry="3.0994"/>
+          <speciesReference species="M_ins_e" stoichiometry="2.1795"/>
+          <speciesReference species="M_k_e" stoichiometry="2.0824"/>
+          <speciesReference species="M_kdo2lipid4_e" stoichiometry="0.20756"/>
+          <speciesReference species="M_leu_DASH_L_e" stoichiometry="4.8064"/>
+          <speciesReference species="M_lys_DASH_L_e" stoichiometry="3.6609"/>
+          <speciesReference species="M_met_DASH_L_e" stoichiometry="1.6419"/>
+          <speciesReference species="M_mg2_e" stoichiometry="0.092547"/>
+          <speciesReference species="M_mn2_e" stoichiometry="0.0073718"/>
+          <speciesReference species="M_mobd_e" stoichiometry="0.0013762"/>
+          <speciesReference species="M_ni2_e" stoichiometry="0.0034458"/>
+          <speciesReference species="M_nmn_e" stoichiometry="0.024302"/>
+          <speciesReference species="M_no_e" stoichiometry="0.083298"/>
+          <speciesReference species="M_o2_e" stoichiometry="0.73522"/>
+          <speciesReference species="M_phe_DASH_L_e" stoichiometry="1.9765"/>
+          <speciesReference species="M_pnto_DASH_R_e" stoichiometry="0.0061449"/>
+          <speciesReference species="M_pro_DASH_L_e" stoichiometry="2.3583"/>
+          <speciesReference species="M_pydx_e" stoichiometry="0.002379"/>
+          <speciesReference species="M_skm_e" stoichiometry="0.0095161"/>
+          <speciesReference species="M_so4_e" stoichiometry="0.046279"/>
+          <speciesReference species="M_thm_e" stoichiometry="0.002379"/>
+          <speciesReference species="M_thymd_e" stoichiometry="0.27915"/>
+          <speciesReference species="M_trp_DASH_L_e" stoichiometry="0.60642"/>
+          <speciesReference species="M_val_DASH_L_e" stoichiometry="4.5144"/>
+          <speciesReference species="M_zn2_e" stoichiometry="0.0036379"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_2dmmql8_c" stoichiometry="0.0071371"/>
+          <speciesReference species="M_adp_c" stoichiometry="624.8086"/>
+          <speciesReference species="M_amp_c" stoichiometry="13.9756"/>
+          <speciesReference species="M_coa_c" stoichiometry="0.0071797"/>
+          <speciesReference species="M_for_c" stoichiometry="0.021411"/>
+          <speciesReference species="M_h_c" stoichiometry="662.5713"/>
+          <speciesReference species="M_na1_c" stoichiometry="2.3089"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1.8264"/>
+          <speciesReference species="M_nadp_c" stoichiometry="7.0744"/>
+          <speciesReference species="M_nh4_c" stoichiometry="2.7925"/>
+          <speciesReference species="M_oaa_c" stoichiometry="6.4929"/>
+          <speciesReference species="M_pi_c" stoichiometry="620.6082"/>
+          <speciesReference species="M_ppi_c" stoichiometry="24.8373"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1.6897"/>
+          <speciesReference species="M_thf_c" stoichiometry="0.0095161"/>
+          <speciesReference species="M_succ_p" stoichiometry="8.6771"/>
+          <speciesReference species="M_feoxam_DASH_un_e" stoichiometry="0.89705"/>
+          <speciesReference species="M_n2o_e" stoichiometry="0.041649"/>
+          <speciesReference species="M_pheme_e" stoichiometry="0.7257"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TALA_R_TKT1_R_TKT2_R_XYLI1_R_XYLK_R_XYLt2pp_R_XYLtex_lumped" name="R_TALA*R_TKT1*R_TKT2*R_XYLI1*R_XYLK*R_XYLt2pp*R_XYLtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_r5p_c" stoichiometry="0.5"/>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_xyl_DASH_D_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+          <speciesReference species="M_g3p_c" stoichiometry="0.5"/>
+          <speciesReference species="M_h_c" stoichiometry="2"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PUNP7_R_XANtex_R_XANtpp_R_XTSNt2rpp_R_XTSNtex_lumped" name="R_PUNP7*R_XANtex*R_XANtpp*R_XTSNt2rpp*R_XTSNtex*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_xtsn_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_r1p_c" stoichiometry="1"/>
+          <speciesReference species="M_xan_e" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_URIt2rpp_R_URItex_lumped" name="R_URIt2rpp*R_URItex*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_uri_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_uri_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PYNP2r_R_URAt2rpp_R_URAtex_lumped" name="R_PYNP2r*R_URAt2rpp*R_URAtex*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_r1p_c" stoichiometry="1"/>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_ura_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+          <speciesReference species="M_uri_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TYRtex" name="L-tyrosine transport via diffusion (extracellular to periplasm)" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b0241 or b0929 or b1377 or b2215)</p>
+                        <p>SUBSYSTEM: Transport, Outer Membrane Porin</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_tyr_DASH_L_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_tyr_DASH_L_p" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TMAOR2pp_R_TMAOtex_R_TMAtex_R_TYRPpp_R_TYRPtex_lumped" name="R_TMAOR2pp*R_TMAOtex*R_TMAtex*R_TYRPpp*R_TYRPtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_2dmmql8_c" stoichiometry="1"/>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_tmao_e" stoichiometry="1"/>
+          <speciesReference species="M_tyrp_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_2dmmq8_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_p" stoichiometry="1"/>
+          <speciesReference species="M_tyr_DASH_L_p" stoichiometry="1"/>
+          <speciesReference species="M_tma_e" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TRPAS2_R_TRPS2_lumped" name="R_TRPAS2*R_TRPS2*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_THRt4pp_R_THRtex_lumped" name="R_THRt4pp*R_THRtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_na1_p" stoichiometry="1"/>
+          <speciesReference species="M_thr_DASH_L_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_na1_c" stoichiometry="1"/>
+          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MCITD_R_MCITL2_R_MCITS_R_MICITDr_R_OBTFL_R_THRD_L_lumped" name="R_MCITD*R_MCITL2*R_MCITS*R_MICITDr*R_OBTFL*R_THRD_L*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_oaa_c" stoichiometry="1"/>
+          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_for_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nh4_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+          <speciesReference species="M_succ_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_THD2pp" name="NAD(P) transhydrogenase (periplasm)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b1602 and b1603)</p>
+                        <p>SUBSYSTEM: Oxidative Phosphorylation</p>
+                        <p>EC Number: 1.6.1.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_p" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="2"/>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_TARTD_R_TARTRt7pp_R_TARTRtex_lumped" name="R_TARTD*R_TARTRt7pp*R_TARTRtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_succ_c" stoichiometry="1"/>
+          <speciesReference species="M_tartr_DASH_L_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_oaa_c" stoichiometry="1"/>
+          <speciesReference species="M_succ_p" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SUCCtex" name="succinate transport via diffusion (extracellular to periplasm)" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b0241 or b0929 or b1377 or b2215)</p>
+                        <p>SUBSYSTEM: Transport, Outer Membrane Porin</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_succ_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_succ_p" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_SBTPD_R_SBTptspp_R_SBTtex_lumped" name="R_SBTPD*R_SBTptspp*R_SBTtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_pep_c" stoichiometry="1"/>
+          <speciesReference species="M_sbt_DASH_D_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_f6p_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_R15BPK_R_R1PK_lumped" name="R_R15BPK*R_R1PK*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="2"/>
+          <speciesReference species="M_r1p_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="2"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_prpp_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PYRt2rpp_R_PYRtex_lumped" name="R_PYRt2rpp*R_PYRtex*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+          <speciesReference species="M_pyr_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_pyr_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PRPPS" name="phosphoribosylpyrophosphate synthetase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b1207</p>
+                        <p>SUBSYSTEM: Histidine Metabolism</p>
+                        <p>EC Number: 2.7.6.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_r5p_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_amp_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_prpp_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PPKr" name="polyphosphate kinase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b2501</p>
+                        <p>SUBSYSTEM: Oxidative Phosphorylation</p>
+                        <p>EC Number: 2.7.4.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_ppi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_PItex" name="phosphate transport via diffusion (extracellular to periplasm)" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b0241 or b0929 or b1377 or b2215)</p>
+                        <p>SUBSYSTEM: Transport, Outer Membrane Porin</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_pi_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_pi_p" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GAPD" name="glyceraldehyde-3-phosphate dehydrogenase" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b1779</p>
+                        <p>SUBSYSTEM: Glycolysis/Gluconeogenesis</p>
+                        <p>EC Number: 1.2.1.12</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_g3p_c" stoichiometry="1"/>
+          <speciesReference species="M_nad_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_13dpg_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nadh_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_NH4tex_R_NH4tpp_lumped" name="R_NH4tex*R_NH4tpp*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_nh4_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_nh4_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_NAt3pp" name="sodium transport out via proton antiport (cytoplasm to periplasm)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: (b0842 or b1216)</p>
+                        <p>SUBSYSTEM: Inorganic Ion Transport and Metabolism</p>
+                        <p>EC Number:</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_na1_c" stoichiometry="1"/>
+          <speciesReference species="M_h_p" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_na1_p" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_NADPHQR4" name="NADPH Quinone Reductase (2-Demethylmenaquinone-8)" reversible="false">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b3028</p>
+                        <p>SUBSYSTEM: Oxidative Phosphorylation</p>
+                        <p>EC Number: 1.6.99.6</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_2dmmq8_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_2dmmql8_c" stoichiometry="1"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_MTHFC_R_MTHFD_lumped" name="R_MTHFC*R_MTHFD*lumped" reversible="true">
+        <listOfReactants>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_mlthf_c" stoichiometry="1"/>
+          <speciesReference species="M_nadp_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_10fthf_c" stoichiometry="1"/>
+          <speciesReference species="M_h_c" stoichiometry="1"/>
+          <speciesReference species="M_nadph_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GLYt4pp_R_GLYtex_lumped" name="R_GLYt4pp*R_GLYtex*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_na1_p" stoichiometry="1"/>
+          <speciesReference species="M_gly_e" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gly_c" stoichiometry="1"/>
+          <speciesReference species="M_na1_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GHMT2r" name="glycine hydroxymethyltransferase, reversible" reversible="true">
+        <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <p>GENE_ASSOCIATION: b2551</p>
+                        <p>SUBSYSTEM: Glycine and Serine Metabolism</p>
+                        <p>EC Number: 2.1.2.1</p>
+                    </body>
+                </notes><listOfReactants>
+          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1"/>
+          <speciesReference species="M_thf_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_gly_c" stoichiometry="1"/>
+          <speciesReference species="M_h2o_c" stoichiometry="1"/>
+          <speciesReference species="M_mlthf_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="R_GARFT_R_GART_lumped" name="R_GARFT*R_GART*lumped" reversible="false">
+        <listOfReactants>
+          <speciesReference species="M_atp_c" stoichiometry="1"/>
+          <speciesReference species="M_for_c" stoichiometry="1"/>
+          <speciesReference species="M_thf_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_10fthf_c" stoichiometry="1"/>
+          <speciesReference species="M_adp_c" stoichiometry="1"/>
+          <speciesReference species="M_pi_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

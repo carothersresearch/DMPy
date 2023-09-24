@@ -1,0 +1,32 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# Cython files.
+*.c
+*.so
+build/*
+
+# Editor files
+*.sublime-*
+
+# OS X
+.DS_store
+
+# Todo
+todo*
+
+# Test data
+pipeline/test_data/*
+*lprof*
+
+# Temporary files
+*temp*
+
+# Throwaway test scripts/results
+test*

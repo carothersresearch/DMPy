@@ -1,0 +1,37 @@
+Note:
+You can put the Rhea, eQuilibrator, MetaNetX and Metacyc database flat files here, and load them with their respective scripts. See instructions below.
+
+Rhea
+Find the latest Rhea data here: https://www.rhea-db.org/download
+Download the Cross-refrences (TSV) and place in this directory:
+	rhea2xrefs.tsv
+The data will be extracted automatically on first run of the pipeline if no cache is present.
+
+
+eQuilibrator
+Find the latest eQuilibrator data here: http://equilibrator.weizmann.ac.il/download
+[Note: As of Februari 2018, the download link is unavailable. Therefore the file is included within this package.]
+Download the following file and place in this directory:
+	kegg_reactions_CC_ph7.0.csv
+
+
+MetaNetX
+Find the latest MetaNetX data here: https://www.metanetx.org/mnxdoc/mnxref.html
+Download the following files and place in this directory:
+	chem_prop.tsv
+	chem_xref.tsv
+	reac_prop.tsv
+	reac_xref.tsv
+Then run from the main package directory: python load_metanetx.py
+NOTE: Some version of the databases underlying the shelve module might have issues with the size of the data. If you run into errors, consider installing a new version, for example using:
+`conda install bsddb` or `conda install -c anaconda python-gdbm`
+
+Metacyc
+Find the latest Metacyc data here: https://metacyc.org/download.shtml
+Note that you'll need to obtain a (free academic) licensce to acces their data.
+Download the MetaCyc flat file archive and extract the following files and place in this directory:
+	compounds.dat
+	enzrxns.dat
+	reactions.dat
+Then run from the main package directory: python load_metacyc.py
+

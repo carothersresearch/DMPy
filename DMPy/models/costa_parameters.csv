@@ -1,0 +1,101 @@
+QuantityType	SBMLReactionID	SBMLSpeciesID	Mean	Std	Unit	Temperature	pH	Minimum	Maximum
+forward maximal velocity	re12		3.71E+00	None	mM/s				
+Michaelis constant	re12	G6P	2.85E-01	None	mM				
+Michaelis constant	re12	Glucose	4.85E-02	None	mM				
+Michaelis constant	re12	PEP	3.06E-01	None	mM				
+Michaelis constant	re12	PYR	1.96E+00	None	mM				
+forward maximal velocity	re13		3.29E+00	None	mM/s				
+Michaelis constant	re13	ATP	4.34E+00	None	mM				
+forward maximal velocity	re14		3.60E+00	None	mM/s				
+Michaelis constant	re14	ADP	1.92E-01	None	mM				
+Michaelis constant	re14	ATP	5.23E-01	None	mM				
+Michaelis constant	re14	Pext	7.50E-01	None	mM				
+Michaelis constant	re14	Pint	3.03E-01	None	mM				
+equilibrium constant	re15		4.30E-01	None					
+forward maximal velocity	re15		2.17E+01	None	mM/s				
+Michaelis constant	re15	F6P	3.14E+00	None	mM				
+Michaelis constant	re15	G6P	1.99E-01	None	mM				
+forward maximal velocity	re16		1.84E+01	None	mM/s				
+Michaelis constant	re16	ADP	1.07E+01	None	mM				
+Michaelis constant	re16	ATP	6.17E-02	None	mM				
+Michaelis constant	re16	F6P	1.02E+00	None	mM				
+Michaelis constant	re16	FBP	8.68E+01	None	mM				
+equilibrium constant	re17		5.60E-02	None					
+forward maximal velocity	re17		5.61E+01	None	mM/s				
+Michaelis constant	re17	FBP	3.01E-01	None	mM				
+Michaelis constant	re17	G3P	1.01E+01	None	mM				
+equilibrium constant	re18		7.00E-04	None					
+forward maximal velocity	re18		3.00E+01	None	mM/s				
+Michaelis constant	re18	BPG	4.82E-02	None	mM				
+Michaelis constant	re18	G3P	1.82E-01	None	mM				
+Michaelis constant	re18	NADH	6.43E-01	None	mM				
+Michaelis constant	re18	NAD	4.77E-02	None	mM				
+Michaelis constant	re18	Pint	6.75E+00	None	mM				
+equilibrium constant	re20		2.76E+01	None					
+forward maximal velocity	re20		2.91E+01	None	mM/s				
+Michaelis constant	re20	ADP	4.13E-01	None	mM				
+Michaelis constant	re20	ATP	7.48E-01	None	mM				
+Michaelis constant	re20	BPG	2.42E-02	None	mM				
+Michaelis constant	re20	PEP	1.39E+00	None	mM				
+forward maximal velocity	re21		2.22E+00	None	mM/s				
+Michaelis constant	re21	ADP	3.08E+00	None	mM				
+Michaelis constant	re21	ATP	2.96E+01	None	mM				
+Michaelis constant	re21	PEP	3.31E-01	None	mM				
+Michaelis constant	re21	PYR	9.64E+01	None	mM				
+forward maximal velocity	re22		5.67E+02	None	mM/s				
+Michaelis constant	re22	Lactate	9.41E+01	None	mM				
+Michaelis constant	re22	NADH	1.44E-01	None	mM				
+Michaelis constant	re22	NAD	3.08E+00	None	mM				
+Michaelis constant	re22	PYR	1.00E-02	None	mM				
+equilibrium constant	re23		6.50E+02	None					
+Michaelis constant	re23	CoA	1.24E-01	None	mM				
+forward maximal velocity	re23		2.31E-03	None	mM/s				
+Michaelis constant	re23	AcetCoA	7.34E+00	None	mM				
+Michaelis constant	re23	Formate	5.43E+01	None	mM				
+Michaelis constant	re23	PYR	5.78E+00	None	mM				
+forward maximal velocity	re24		2.12E+00	None	mM/s				
+Michaelis constant	re24	AcetCoA	7.38E+00	None	mM				
+Michaelis constant	re24	CoA	9.18E-02	None	mM				
+Michaelis constant	re24	Ethanol	2.28E+00	None	mM				
+Michaelis constant	re24	NADH	4.31E-01	None	mM				
+Michaelis constant	re24	NAD	1.31E+00	None	mM				
+forward maximal velocity	re25		3.84E+00	None	mM/s				
+Michaelis constant	re25	ADP	1.17E+00	None	mM				
+Michaelis constant	re25	ATP	1.42E+01	None	mM				
+Michaelis constant	re25	AcetCoA	5.58E-01	None	mM				
+Michaelis constant	re25	Acetate	5.52E-01	None	mM				
+Michaelis constant	re25	CoA	1.73E-01	None	mM				
+equilibrium constant	re26		9.00E+05	None					
+forward maximal velocity	re26		3.55E-01	None	mM/s				
+Michaelis constant	re26	Acetoin	4.95E-02	None	mM				
+Michaelis constant	re26	PYR	2.63E-01	None	mM				
+equilibrium constant	re27		1.40E+03	None					
+forward maximal velocity	re27		2.29E+00	None	mM/s				
+Michaelis constant	re27	Acetoin	5.62E+00	None	mM				
+Michaelis constant	re27	Butanediol	1.81E+00	None	mM				
+Michaelis constant	re27	NADH	3.55E+00	None	mM				
+Michaelis constant	re27	NAD	1.30E+00	None	mM				
+equilibrium constant	re28		2.00E+02	None					
+forward maximal velocity	re28		1.33E+00	None	mM/s				
+Michaelis constant	re28	F6P	3.21E-01	None	mM				
+Michaelis constant	re28	Mannitol1Phosphate	8.91E-02	None	mM				
+Michaelis constant	re28	NADH	3.03E-02	None	mM				
+Michaelis constant	re28	NAD	3.73E-01	None	mM				
+forward maximal velocity	re29		3.49E+00	None	mM/s				
+Michaelis constant	re29	Mannitol1Phosphate	3.52E+00	None	mM				
+Michaelis constant	re29	Mannitol	2.39E-01	None	mM				
+forward maximal velocity	re30		4.45E+00	None	mM/s				
+Michaelis constant	re30	Mannitol1Phosphate	3.63E-01	None	mM				
+Michaelis constant	re30	Mannitol_Ext	1.27E-02	None	mM				
+Michaelis constant	re30	PEP	2.21E+00	None	mM				
+Michaelis constant	re30	PYR	3.44E-01	None	mM				
+forward maximal velocity	re31		1.60E+00	None	mM/s				
+Michaelis constant	re31	Acetoin	1.89E+00	None	mM				
+Michaelis constant	re31	Acetoin_Ext	7.05E+00	None	mM				
+forward maximal velocity	re32		1.62E+00	None	mM/s				
+Michaelis constant	re32	Mannitol_Ext	9.41E-01	None	mM				
+Michaelis constant	re32	Mannitol	2.24E-02	None	mM				
+forward maximal velocity	re33		9.70E-02	None	mM/s				
+Michaelis constant	re33	F6P	1.91E+00	None	mM				
+Michaelis constant	re33	FBP	4.12E-01	None	mM				
+Michaelis constant	re33	Pint	1.10E-02	None	mM				
